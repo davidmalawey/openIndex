@@ -1,1 +1,1 @@
-* [Standalone Page](standalone-page.md)
+* [YouTube](https://www.youtube.com/@davidmalawey)
