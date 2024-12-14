@@ -30,6 +30,7 @@
 
   <style>
     :root {
+      
       --base-font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 --base-line-height: 1.5; /* Slightly increased for readability */
 --base-font-size: 1.2rem; /* Slightly larger base font size */
@@ -59,47 +60,56 @@
 --heading-h6-font-weight: 400;
 
 /* Primary Palette */
---primary-color: #0A6ECC; /* Primary */
---primary-dark: #084F99; /* Darker shade */
---primary-light: #63A3E5; /* Lighter shade */
---primary-complement: #CC620A; /* Complementary */
+--primary-color: #0A6ECC; /* Base blue */
+--primary-dark: #083A80; /* Darker blue for headings and accents */
+--primary-light: #66B2E4; /* Lighter blue for highlights */
 
 /* Neutral Shades */
---neutral-dark: #2B3D50; /* For contrasts */
---neutral-light: #EAF4FA; /* Subtle backgrounds */
+--neutral-dark: #EAEAEA; /* Text over dark background */
+--neutral-light: #121212; /* Blackish background for high contrast */
+--neutral-medium: #1C1C1C; /* For sections needing slightly less contrast */
 
 /* Accent Colors */
---accent-green: #3DA55A; /* For success elements */
---accent-red: #D13F4B; /* For warning/critical */
---accent-yellow: #FFC857; /* For attention */
+--accent-green: #2E8540; /* High-contrast success */
+--accent-red: #C12A32; /* High-contrast error */
+--accent-yellow: #F4B400; /* High-contrast attention */
 
+/* Typography */
+--base-font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+--base-line-height: 1.5; 
+--base-font-size: 1.2rem; 
+--base-font-color: var(--neutral-dark); /* Light gray for better contrast on dark */
+--base-background-color: var(--neutral-light); /* Blackish primary background */
+
+/* Secondary Backgrounds */
+--background-secondary: var(--neutral-medium); /* Slightly lighter sections */
+
+/* Headings */
+--heading-h1-font-size: 2rem;
+--heading-h2-font-size: 1.75rem;
+--heading-h3-font-size: 1.5rem;
+--heading-h4-font-size: 1.35rem;
+--heading-h5-font-size: 1.25rem;
+--heading-h6-font-size: 1.15rem;
+
+--heading-h1-color: var(--primary-color);
+--heading-h2-color: var(--primary-color); 
+--heading-h3-color: var(--primary-light); 
+--heading-h4-color: var(--primary-light);
+--heading-h5-color: var(--neutral-dark);
+--heading-h6-color: var(--neutral-dark);
+
+/* Links */
 --link-color: var(--primary-light);
+--link-hover-color: var(--primary-color); 
 --link-text-decoration: underline;
---link-text-decoration--hover: underline;
 
---sidebar-name-color: var(--primary-color);
---sidebar-nav-link-color--active: var(--primary-dark);
---sidebar-nav-link-border-color--active: var(--primary-color);
---sidebar-nav-link-font-weight--active: bold;
-
---sidebar-nav-pagelink-background--active:
-  no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, var(--primary-light) 2.75px 4.25px, transparent 4.25px),
-  no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, var(--primary-light) 2.75px 4.25px, transparent 4.25px);
---sidebar-nav-pagelink-background--collapse:
-  no-repeat 2px calc(50% - 2.5px) / 6px 5px linear-gradient(45deg, transparent 2.75px, var(--primary-light) 2.75px 4.25px, transparent 4px),
-  no-repeat 2px calc(50% + 2.5px) / 6px 5px linear-gradient(135deg, transparent 2.75px, var(--primary-light) 2.75px 4.25px, transparent 4px);
---sidebar-nav-pagelink-background--loaded:
-  no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, var(--primary-light) 2.75px 4.25px, transparent 4.25px),
-  no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, var(--primary-light) 2.75px 4.25px, transparent 4.25px);
-
---navbar-root-margin: 0 0 0 .8em;
---navbar-root-color--active: var(--primary-color);
-
+/* Blockquotes */
 --blockquote-border-color: var(--primary-dark);
+--blockquote-text-color: var(--neutral-dark);
 
---pagination-title-color: var(--primary-color);
-
---docsifytabs-tab-color: var(--neutral-dark);
+/* Accessibility Adjustments */
+--focus-outline-color: var(--accent-yellow);
 
 
   </style>
