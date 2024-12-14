@@ -1,5 +1,3 @@
-# Open Projects
-
 - [OpenArm](https://bit.ly/openarm)
 - [OpenJar](https://bit.ly/openjarproject_v1)
 - [OpenBox](https://bit.ly/openboxproject)
