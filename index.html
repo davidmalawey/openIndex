@@ -179,7 +179,7 @@
       // repo           : 'https://github.com/davidmalawey/openIndex',
       homepage: 'home.md',
       // coverpage      : '_coverpage.md',
-      // loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+      loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar || false),
       mergeNavbar: false,
       externalLinkTarget: standalone ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
@@ -188,9 +188,9 @@
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
       auto2top: true,
-      maxLevel: 1,
+      maxLevel: 2,
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
-      subMaxLevel: 1,
+      subMaxLevel: 2,
       hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
       // PLUGIN SETTINGS
