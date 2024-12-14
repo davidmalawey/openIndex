@@ -16,32 +16,38 @@ body .markdown-section {
 */
 
 /* Link colors to match SFU branding visual styling (uncomment to use) */
-/*
+
 :root {
     --link-color: #CC0633!important;
     --link-text-decoration: none!important;
     --link-text-decoration--hover: underline!important;
 
-    --sidebar-name-color: #CC0633!important;
-    --sidebar-nav-link-color: #757575!important;
-    --sidebar-nav-link-color--active: #CC0633!important;
-    --sidebar-nav-link-border-color--active: #CC0633!important;
+/* Sidebar Styles */
+--sidebar-background-color: #0A6ECC; /* Primary blue */
+--sidebar-text-color: #FFFFFF; /* White for contrast */
+--sidebar-link-color: #FFD700; /* Gold links for a standout effect */
+--sidebar-link-hover-color: #FFFFFF; /* White on hover for emphasis */
+--sidebar-link-active-color: #FFD700; /* Consistent gold for active links */
+--sidebar-link-text-decoration: none;
+--sidebar-link-text-decoration-hover: underline;
 
-    --sidebar-nav-pagelink-background--active:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4.25px)!important;
-    --sidebar-nav-pagelink-background--collapse:
-        no-repeat 2px calc(50% - 2.5px) / 6px 5px
-        linear-gradient(45deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4px),
-        no-repeat 2px calc(50% + 2.5px) / 6px 5px
-        linear-gradient(135deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4px)!important;
-    --sidebar-nav-pagelink-background--loaded:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4.25px)!important;
+/* Sidebar Navigation */
+--sidebar-nav-link-color: var(--sidebar-link-color);
+--sidebar-nav-link-color--hover: var(--sidebar-link-hover-color);
+--sidebar-nav-link-color--active: var(--sidebar-link-active-color);
+--sidebar-nav-link-font-weight: bold;
+
+/* Sidebar Section Headings */
+--sidebar-section-heading-color: #FFFFFF; /* Match text color */
+--sidebar-section-heading-font-weight: bold;
+
+/* Sidebar Borders and Highlights */
+--sidebar-border-color: #083A80; /* Darker blue for subtle borders or dividers */
+--sidebar-highlight-color: #FFD700; /* Gold for hover highlights or indicators */
+
+/* Sidebar Scrollbar */
+--sidebar-scrollbar-thumb-color: #083A80; /* Darker blue thumb */
+--sidebar-scrollbar-track-color: #0A6ECC; /* Match background */
 
     --navbar-root-color: #757575!important;
     --navbar-root-color--active: #CC0633!important;
@@ -50,7 +56,7 @@ body .markdown-section {
 
     --pagination-title-color: #CC0633!important;
 }
-*/
+
 
 /* Dark mode colours to match SFU branding visual styling for use with light + dark theme (uncomment to use) */
 /*
