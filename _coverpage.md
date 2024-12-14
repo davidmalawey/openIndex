@@ -1,7 +1,7 @@
 # 💻
 
 <h1 id="cover-heading">
-  My Open Publishing Space
+  Open Project by David Malawey
 </h1>
 
 > Create, Share and Collaborate
