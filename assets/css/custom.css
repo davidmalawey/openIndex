@@ -75,10 +75,11 @@
 
 
     /* Sidebar Styles */
-    --sidebar-background: var( --neutral-medium);
+    --sidebar-background: #090947 linear-gradient(315deg, #090947 0%, #5a585a 74%);
+    
     --sidebar-border-color: var(--neutral-medium);
     --sidebar-toggle-background: var(--neutral-medium);
-    --sidebar-text-color: ##FFFFFF); /* White for contrast */
+    --sidebar-text-color: ##FFFFFF; /* White for contrast */
     --sidebar-link-color: #FFD700; /* Gold links for a standout effect */
     --sidebar-link-hover-color: #ffffff; /* White on hover for emphasis */
     --sidebar-link-active-color: #FFD700; /* Consistent gold for active links */
