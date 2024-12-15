@@ -78,6 +78,8 @@
     --sidebar-background: #4d4855 linear-gradient(147deg, #4d4855 0%, #000000 74%);
     --sidebar-border-color: transparent;
     --sidebar-toggle-background: transparent;
+
+    --sidebar-nav-link-color: var(--primary-light);
     
 
 }
