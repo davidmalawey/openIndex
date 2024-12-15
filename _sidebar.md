@@ -5,7 +5,7 @@
 - [Week 4 (May 30 - Jun 5)](module-04)
 - **LMS Links**
   
-  - [![Github Icon](https://icongr.am/simple/discord.svg?size=128&color=currentColor&colored=false)Discord]
+  - [![Github Icon](https://icongr.am/simple/discord.svg?size=128&color=ffffff&colored=false)Discord]
   (https://discord.gg/Ga3A3csy)
   
   
