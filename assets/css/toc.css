@@ -21,14 +21,14 @@
   display: inline;
 }
 .markdown-section {
-/*   flex: 1 1 0%; */
+  flex: 1 1 0%;
   margin: 0 48px;
 }
 .nav {
-  width: var(--toc-width, 440px);
-  min-width: 340px;
-/*   align-self: flex-start;
-  flex: 0 0 auto; */
+  width: var(--toc-width, 280px);
+  min-width: 200px;
+  align-self: flex-start;
+  flex: 0 0 auto;
 }
 aside.nav.nothing {
   width: 0;
@@ -102,7 +102,7 @@ aside.nav.nothing {
   padding-top: 7px;
 }
 
-@media screen and (max-width: 980) {
+@media screen and (max-width: 900px) {
   .page_toc {
     position: relative;
     top: -20px;
@@ -113,7 +113,7 @@ aside.nav.nothing {
   }
   .nav {
     margin: 0 auto;
-    width: 980px;
+    width: 900px;
   }
   .page_toc p.title {
     font-weight: 400;

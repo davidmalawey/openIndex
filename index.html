@@ -3,16 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Open Projects by David Malawey</title>
+  <title>Docsify Open Course Starter Kit</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="">
+  <meta name="description" content="Docsify Open Course Starter Kit">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/favicon/favicon.png">
 
+  <!-- Themeable Simple theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
-  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <!-- Themeable Simple light + dark theme (uncomment to use, and comment out the above loading of Simple theme) -->
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme: light)"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"> -->
 
+  <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/custom.css">
 
   <!-- Font Awesome Stylesheets -->
@@ -22,7 +28,68 @@
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+      --base-line-height: 1.4;
+      --base-font-size: 1.125rem;
+
+      --cover-max-width: 45em;
+
+      --heading-h2-border-style: none;
+      --heading-h1-margin: 1rem 0rem -0.5rem 0rem;
+      --heading-h2-margin: 1rem 0rem -1.5rem 0rem;
+      --heading-h3-margin: 1rem 0rem -.5rem 0rem;
+      --heading-h4-margin: 1rem 0rem -.5rem 0rem;
+      --heading-h5-margin: 1rem 0rem -.5rem 0rem;
+      --heading-h6-margin: 1rem 0rem 0rem 0rem;
+      --heading-h1-font-size: 1.60rem;
+      --heading-h2-font-size: 1.40rem;
+      --heading-h3-font-size: 1.20rem;
+      --heading-h4-font-size: 1.15rem;
+      --heading-h5-font-size: 1.1rem;
+      --heading-h6-font-size: 1rem;
+      --heading-h1-font-weight: 400;
+      --heading-h2-font-weight: 400;
+      --heading-h3-font-weight: 400;
+      --heading-h4-font-weight: 400;
+      --heading-h5-font-weight: 400;
+      --heading-h6-font-weight: 400;
+
+      --link-color: #0374B5;
+      --link-text-decoration: underline;
+      --link-text-decoration--hover: underline;
+
+      --sidebar-name-color: #0374B5;
+      --sidebar-nav-link-color--active: #0374B5;
+      --sidebar-nav-link-border-color--active: #0374B5;
+      --sidebar-nav-link-font-weight--active: bold;
+
+      --sidebar-nav-pagelink-background--active:
+        no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px),
+        no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px);
+      --sidebar-nav-pagelink-background--collapse:
+        no-repeat 2px calc(50% - 2.5px) / 6px 5px linear-gradient(45deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4px),
+        no-repeat 2px calc(50% + 2.5px) / 6px 5px linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4px);
+      --sidebar-nav-pagelink-background--loaded:
+        no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px),
+        no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px);
+
+      --navbar-root-margin: 0 0 0 .8em;
+      --navbar-root-color--active: #0374B5;
+
+      --blockquote-border-color: #0374B5;
+
+      --pagination-title-color: #0374B5;
+
+      --docsifytabs-tab-color: var(--base-color);
+    }
+  </style>
 
 </head>
 
@@ -30,7 +97,7 @@
   <div id="app"></div>
   <script>
     // Enter the URL of your own GitHub Repository in between the two quotes below
-    var gitLinkRepoURL = 'https://github.com/davidmalawey/openIndex';
+    var gitLinkRepoURL = 'https://github.com/hibbitts-design/demo-docsify-open-course-starter-kit';
 
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
     var editThisPageLinkText = 'Edit this Page';
@@ -46,9 +113,6 @@
 
     // Set footer to true to permanently show the Footer ('_footer.md)
     var footer = false;
-
-    // Set footer to true to permanently show the Sidebar ('_sidebar.md)
-    var sidebar = false;
 
     // Get value from GET-parameter in URL
     // @param {array} name Parameter-name
@@ -92,34 +156,24 @@
     window.$docsify = {
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
-      name: 'Open Projects by David Malawey',
-      // repo           : 'https://github.com/davidmalawey/openIndex',
+      name: 'Docsify Open Course Starter Kit',
       homepage: 'home.md',
-      // coverpage      : '_coverpage.md',
-      // loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+      loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar || false),
       mergeNavbar: false,
       externalLinkTarget: standalone ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
-      loadFooter: (getURLParameterByName('footer') || footer || true),
+      loadFooter: (getURLParameterByName('footer') || footer || false),
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
       auto2top: true,
-      maxLevel: 2,
+      maxLevel: 3,
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
-      subMaxLevel: 2,
+      subMaxLevel: 3,
       hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
-      // search: {
-        //   depth: 3,
-        // noData: 'No matches found.',
-        // placeholder: 'Enter search text here...',
-        // hideOtherSidebarContent: true,
-        // namespace: 'Open Projects by David',
-        // },
-
       pagination: {
         previousText: 'PREV',
         nextText: 'NEXT',
@@ -129,14 +183,13 @@
 
       toc: {
         scope: '.markdown-section',
-        headings: 'h2',
+        headings: 'h2,h3',
         title: '',
       },
 
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
-
         function (hook, vm) {
 
           hook.afterEach(function (html, next) {
@@ -234,10 +287,10 @@
             } else {
               url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
             }
-            /* var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=align-items-vertically")\n' */
+            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=align-items-vertically")\n'
 
             if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
-              return editHtml + '\n' + html
+              return html + '<br />' + '\n\n' + editHtml
             } else {
               return html
             }
@@ -340,10 +393,8 @@
           });
 
         }
-
       ]
     }
-
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
@@ -361,7 +412,7 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 
   <!-- Search Box Plugin -->
-  <script src="assets/js/search.min.js"></script>
+  <!--  <script src="assets/js/search.min.js"></script> -->
 
   <!-- Font Awesome Plugin -->
   <script src="assets/js/docsify-fontawesome.min.js"></script>
