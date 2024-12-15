@@ -4,8 +4,6 @@
 - [Week 3 (May 23 - 29)](module-03)
 - [Week 4 (May 30 - Jun 5)](module-04)
 - **LMS Links**
-  
-
   - [![Assignments Icon](https://icongr.am/simple/discord.svg?size=16&color=808080)Discord](https://discord.gg/Ga3A3csy)
   - [![Quizzes Icon](https://icongr.am/fontawesome/check-circle.svg?size=16&color=808080)Quizzes](https://canvas.sfu.ca/courses/44038/quizzes)
   - [![Class Discussions Icon](https://icongr.am/fontawesome/comments-o.svg?size=16&color=808080)Class Discussions](https://canvas.sfu.ca/courses/44038/discussion_topics)
