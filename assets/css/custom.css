@@ -17,12 +17,12 @@
   }
   
   :root {
-    --theme-color: #ff5e5e;
-    --theme-color-light: #fd7373;
-    --theme-color-dark: #f64242;
-    --theme-color-secondary: #ff5e5e;
-    --theme-color-secondary-dark: #f64242;
-    --theme-color-secondary-light: #fd7373;
+    --theme-color: #0A6ECC;
+    --theme-color-light: #084F99;
+    --theme-color-dark: #63A3E5;
+    --theme-color-secondary: #0A6ECC;
+    --theme-color-secondary-dark: #084F99;
+    --theme-color-secondary-light: #63A3E5;
   
     --background-color: #fff;
     --background-light: #fff;
