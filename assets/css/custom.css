@@ -74,10 +74,8 @@
     --focus-outline-color: var(--accent-yellow);
 
 
-
-    --sidebar-name-color: #FFFFFF;
-
-    --sidebar-background: var(--neutral-dark);
+    /* SideBar */
+    --sidebar-background: var(--neutral-medium);
 
 
     --navbar-root-color: #B2B4B4!important;
