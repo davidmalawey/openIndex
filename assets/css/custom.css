@@ -73,9 +73,13 @@
     /* Accessibility Adjustments */
     --focus-outline-color: var(--accent-yellow);
 
-    --sidebar-nav-link-color: #B2B4B4!important;
-    --sidebar-nav-link-color--active: #EA7688!important;
-    --sidebar-nav-link-border-color--active: #EA7688!important;
+
+
+    --sidebar-name-color: #FFFFFF;
+
+    --sidebar-nav-link-color: #FFD700!important;
+    --sidebar-nav-link-color--active: #EFFFFFF!important;
+    --sidebar-nav-link-border-color--active: #FFFFFF!important;
 
     --sidebar-background: var(--primary-color);
     
