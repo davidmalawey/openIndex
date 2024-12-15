@@ -75,7 +75,7 @@
 
 
     /* Sidebar Styles */
-    --sidebar-background-color: var(--primary-dark); /* Primary blue */
+    --sidebar-background: var(--primary-dark); /* Primary blue */
     --sidebar-text-color: var(--neutral-dark); /* White for contrast */
     --sidebar-link-color: var(--accent-green); /* Gold links for a standout effect */
     --sidebar-link-hover-color: #FFFFFF; /* White on hover for emphasis */
