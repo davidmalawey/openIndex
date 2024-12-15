@@ -75,7 +75,8 @@
 
 
     /* Sidebar Styles */
-    --sidebar-background: #090947 linear-gradient(315deg, #090947 0%, #5a585a 74%);
+    --sidebar-background: #4d4855 linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    
     
     --sidebar-border-color: var(--neutral-medium);
     --sidebar-toggle-background: var(--neutral-medium);
