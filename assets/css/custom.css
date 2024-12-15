@@ -76,10 +76,11 @@
 
     /* Sidebar Styles */
     --sidebar-background: var( --neutral-medium);
-    --sidebar-border-color: var( --neutral-medium);
-    --sidebar-text-color: var(--neutral-dark); /* White for contrast */
-    --sidebar-link-color: var(--accent-green); /* Gold links for a standout effect */
-    --sidebar-link-hover-color: #FFFFFF; /* White on hover for emphasis */
+    --sidebar-border-color: var(--neutral-medium);
+    --sidebar-toggle-background: var(--neutral-medium);
+    --sidebar-text-color: ##FFFFFF); /* White for contrast */
+    --sidebar-link-color: #FFD700; /* Gold links for a standout effect */
+    --sidebar-link-hover-color: #ffffff; /* White on hover for emphasis */
     --sidebar-link-active-color: #FFD700; /* Consistent gold for active links */
     --sidebar-link-text-decoration: none;
     --sidebar-link-text-decoration-hover: underline;
