@@ -77,15 +77,8 @@
 
     --sidebar-name-color: #FFFFFF;
 
-    --sidebar-nav-link-color: #FFD700!important;
-    --sidebar-nav-link-color--active: #EFFFFFF!important;
-    --sidebar-nav-link-border-color--active: #FFFFFF!important;
+    --sidebar-background: var(--neutral-dark);
 
-    --sidebar-background: var(--primary-dark);
-    
-    --sidebar-nav-pagelink-background--active: #0A6ECC;
-    --sidebar-nav-pagelink-background--collapse:#0A6ECC;
-    --sidebar-nav-pagelink-background--loaded: #0A6ECC;
 
     --navbar-root-color: #B2B4B4!important;
     --navbar-root-color--active: #EA7688!important;
