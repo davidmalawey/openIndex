@@ -79,9 +79,8 @@ Put your custom CSS in this file.
     }
     
     .sidebar ul li a {
-        color: var(--text-color-secondary);
+        color: var(--primary-color);
         font-size: 1rem;
-        font-weight: var(--menu-weight);
     }
     
     .sidebar ul li.active>a {
@@ -90,12 +89,12 @@ Put your custom CSS in this file.
     
     .sidebar ul li a:hover {
         text-decoration: none;
-        color: var(--theme-color-dark);
+        color: var(--neutral-dark);
     }
     
     .sidebar .sidebar-nav ul li.active>a {
-        color: var(--text-color-active);
-        border-right: 0.2rem solid var(--theme-color-secondary-light);
+        color: var(--primary-color);
+        border-right: 0.2rem solid var(--primary-color);
     }
     
     .sidebar > h1 img {
