@@ -71,10 +71,12 @@ Put your custom CSS in this file.
         justify-content: center
       }
 
-      .sidebar-toggle { }
-
+      .sidebar-nav ul {
+        margin-left: 0;
+      }
       
-      
+      .sidebar-toggle { margin-left: 10px; 
+        
       body .sidebar-toggle span {
         transition: all 0.3s linear;
         background-color: var(--primary-color);
