@@ -75,7 +75,9 @@ Put your custom CSS in this file.
         margin-left: 0;
       }
       
-      .sidebar-toggle { margin-left: 10px; 
+    .sidebar-toggle {
+        margin-left: 20px;
+    }
         
       body .sidebar-toggle span {
         transition: all 0.3s linear;
