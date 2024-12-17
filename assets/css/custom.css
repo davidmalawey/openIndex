@@ -6,6 +6,8 @@ Put your custom CSS in this file.
 
 :root {
 
+
+    
     /* Primary Palette */
     --primary-color: #0A6ECC; /* Base blue */
     --primary-dark: #083A80; /* Darker blue for headings and accents */
@@ -29,6 +31,7 @@ Put your custom CSS in this file.
     --base-background-color: var(--neutral-light); /* Blackish primary background */
 
     /* Secondary Backgrounds */
+    --background-secondary: var(--primary-dark);
     --background-secondary: var(--neutral-medium); /* Slightly lighter sections */
 
     /* Headings */
@@ -59,14 +62,12 @@ Put your custom CSS in this file.
     --focus-outline-color: var(--accent-yellow);
 
 
-
-
     aside.sidebar {
         border: none;
         background-color: var(--background-light);
         color: var(--text-color-base);
         width: 20%;
-        border-right: 1px solid var(--border-color);
+        border-right: 1px solid var(--accent-green);
     }
     
     body.close .sidebar {
@@ -109,8 +110,7 @@ Put your custom CSS in this file.
     .sidebar > h1 {
         font-size: 2rem;
     }
-    
-    
+
     .sidebar-logo-title {
         margin-left: 10px;
     }
