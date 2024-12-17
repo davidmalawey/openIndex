@@ -33,6 +33,8 @@ Put your custom CSS in this file.
     /* Secondary Backgrounds */
     --background-secondary: var(--primary-dark);
 
+    --sidebar-toggle-background: transparent;
+
     /* Headings */
     --heading-h1-font-size: 2rem;
     --heading-h2-font-size: 1.75rem;
@@ -69,7 +71,9 @@ Put your custom CSS in this file.
         justify-content: center
       }
 
-      body .sidebar-toggle { background: transparent; }
+      .sidebar-toggle { }
+
+      
       
       body .sidebar-toggle span {
         transition: all 0.3s linear;
