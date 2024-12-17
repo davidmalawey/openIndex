@@ -15,7 +15,7 @@ Put your custom CSS in this file.
 
     /* Neutral Shades */
     --neutral-dark: #EAEAEA; /* Text over dark background */
-    --neutral-light: #121212; /* Blackish background for high contrast */
+    --neutral-light: #333333; /* Blackish background for high contrast */
     --neutral-medium: #1C1C1C; /* For sections needing slightly less contrast */
 
     /* Accent Colors */
