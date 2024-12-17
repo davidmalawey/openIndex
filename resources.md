@@ -1,16 +1,27 @@
 # Ressources
 
-## Open Projecrts
+## Recommended YouTubers
 
-## :fas fa-calendar fa-pull-left: OpenAir
-**[What is usability and user experience design?](https://canvas.sfu.ca/courses/44038/modules/items/1096965)**  
-:fas fa-desktop fa-fw: [OpenAir Microsite](#)   
-:fas fa-brands fa-github: [Open Air GitHub Repository](#)  
+**[:fa-brands fa-youtube: Robojax](https://www.youtube.com/c/RobojaxTV/)**
+<span class='badge'>Best array of components.</span> My name is Ahmad Shamshiri. Ahmad Smashiri teach and review IoT (Internet of Things), Robotics and Electronics.  He's specialized in creating Courses for Schools or Products. 
 
-## Guides
+**[:fa-brands fa-youtube: DroneBot Workshop](https://www.youtube.com/c/Dronebotworkshop1/)**
+<span class='badge'>University Grade Lab</span> The DroneBot Workshop is the place to be if you are interested in working with Arduino, Raspberry Pi, Electronics, Robotics, Internet of Things, Quadcopters and other high tech fun things. You'll learn how components work and how you can use them in your experiments, as well as fascinating projects you can build yourself. Each video has a corresponding article on the DroneBot Workshop website (https://dronebotworkshop.com) that will give you all the code you need as well as more detailed instructions.
 
-## :fas fa-calendar fa-pull-left: Week 2 (May 16 - 22)
-**[What does a holistic user experience design process look like?](https://canvas.sfu.ca/courses/44038/modules/items/1096966)**  
-:fas fa-keyboard fa-fw: [Course Reflection Log](https://sso.canvaslms.com/courses/1924881/assignments/14377752) <span class='badge'> Fri Aug 3rd 11:59pm PDT</span>  
-:fas fa-desktop fa-fw: [The Process of UX Design](https://docs.google.com/presentation/d/e/2PACX-1vRnnRFelgw1ksq_p8Eryg3dnyLCRRLPf5fBgdwdv9p-tCIwcxqWvzDGrGbjxGHL7HqEJVpmV26ntk3a/pub?start=false&loop=false&delayms=3000)   
-:fas fa-book fa-fw: [The Evolution of UX Process Methodology](https://uxplanet.org/the-evolution-of-ux-process-methodology-47f52557178b)  
+**[:fa-brands fa-youtube: DroneBot Workshop](https://www.youtube.com/c/Dronebotworkshop1/)**
+<span class='badge'>Best Mechanical Project</span> He specialize in developing robots, robotic arms and legs, with a focus on practical and innovative robotics solutions. He's projects span various aspects of robotics, motors, and engineering. Lately, he's main interest has been creating robots that serve real-world purposes. The mission of this channel is to contribute to building a bright, robotic future that benefits everyone!
+
+**[:fa-brands fa-youtube: James Bruton](https://www.youtube.com/c/jamesbruton/)**
+<span class='badge'>Most Advanced Robot</span> Former toy designer, current YouTube maker and general robotics, electrical and mechanical engineer, I’m a fan of doing it yourself and innovation by trial and error. My channel is where I share some of my useful and not-so-useful inventions, designs and maker advice. Iron Man is my go-to cosplay, and 3D printing can solve most issues - broken bolts, missing parts, world hunger, you name it.
+
+**[:fa-brands fa-youtube: DIY Builder](https://www.youtube.com/c/DIYBuilder/)**
+<span class='badge'>Best Cinematography</span> Surajit Majumdar is passionate about Making DIY Projects. He make Arduino and Robotics related unique DIY projects. 
+
+**[:fa-brands fa-youtube: James Bruton](https://www.youtube.com/c/jamesbruton/)**
+<span class='badge'>Best Documentation</span> Dejan is a maker, a techie and a mechatronics engineer.
+He's making electronics and robotics projects for you to learn and make something cool on your own.
+
+## Tips & Tricks
+
+**[How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)**
+The website provides a detailed guide on how to ask technical questions effectively in forums or to experts, emphasizing clarity, respect, and effort to increase the likelihood of receiving helpful answers.
