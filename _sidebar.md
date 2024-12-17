@@ -1,4 +1,5 @@
-- [Overview](course-welcome)
+<!-- markdownlint-disable -->
 
-- **Links**
-  - [![Discord Icon](https://icongr.am/simple/discord.svg?size=16&color=808080)Discord](https://discord.gg/Ga3A3csy)
+* Overview
+  * [Getting Started](/getting_started.md)
+  * [Release Notes](/release_notes.md)
