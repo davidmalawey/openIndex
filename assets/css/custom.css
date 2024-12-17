@@ -6,8 +6,203 @@ Put your custom CSS in this file.
 
 :root {
 
+    /* Primary Palette */
+    --primary-color: #0A6ECC; /* Base blue */
+    --primary-dark: #083A80; /* Darker blue for headings and accents */
+    --primary-light: #66B2E4; /* Lighter blue for highlights */
+
+    /* Neutral Shades */
+    --neutral-dark: #EAEAEA; /* Text over dark background */
+    --neutral-light: #121212; /* Blackish background for high contrast */
+    --neutral-medium: #1C1C1C; /* For sections needing slightly less contrast */
+
+    /* Accent Colors */
+    --accent-green: #2E8540; /* High-contrast success */
+    --accent-red: #C12A32; /* High-contrast error */
+    --accent-yellow: #F4B400; /* High-contrast attention */
+
+    /* Typography */
+    --base-font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    --base-line-height: 1.5; 
+    --base-font-size: 1.2rem; 
+    --base-font-color: var(--neutral-dark); /* Light gray for better contrast on dark */
+    --base-background-color: var(--neutral-light); /* Blackish primary background */
+
+    /* Secondary Backgrounds */
+    --background-secondary: var(--neutral-medium); /* Slightly lighter sections */
+
+    /* Headings */
+    --heading-h1-font-size: 2rem;
+    --heading-h2-font-size: 1.75rem;
+    --heading-h3-font-size: 1.5rem;
+    --heading-h4-font-size: 1.35rem;
+    --heading-h5-font-size: 1.25rem;
+    --heading-h6-font-size: 1.15rem;
+
+    --heading-h1-color: var(--primary-color);
+    --heading-h2-color: var(--primary-color); 
+    --heading-h3-color: var(--primary-light); 
+    --heading-h4-color: var(--primary-light);
+    --heading-h5-color: var(--neutral-dark);
+    --heading-h6-color: var(--neutral-dark);
+
+    /* Links */
+    --link-color: var(--primary-light);
+    --link-hover-color: var(--primary-color); 
+    --link-text-decoration: underline;
+
+    /* Blockquotes */
+    --blockquote-border-color: var(--primary-dark);
+    --blockquote-text-color: var(--neutral-dark);
+
+    /* Accessibility Adjustments */
+    --focus-outline-color: var(--accent-yellow);
+
+
+
+
+    aside.sidebar {
+        border: none;
+        background-color: var(--background-light);
+        color: var(--text-color-base);
+        width: 20%;
+        border-right: 1px solid var(--border-color);
+    }
+    
+    body.close .sidebar {
+        transform: translateX(-100%);
+    }
+    
+    .sidebar-version-select {
+        font-size: 1rem;
+    }
+    
+    .sidebar ul li a {
+        color: var(--text-color-secondary);
+        font-size: 1rem;
+        font-weight: var(--menu-weight);
+    }
+    
+    .sidebar ul li.active>a {
+        border-width: 0.1rem;
+    }
+    
+    .sidebar ul li a:hover {
+        text-decoration: none;
+        color: var(--theme-color-dark);
+    }
+    
+    .sidebar .sidebar-nav ul li.active>a {
+        color: var(--text-color-active);
+        border-right: 0.2rem solid var(--theme-color-secondary-light);
+    }
+    
     .sidebar > h1 img {
         max-width: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 15px;
+        justify-content: center
       }
+    
+    .sidebar > h1 {
+        font-size: 2rem;
+    }
+    
+    
+    .sidebar-logo-title {
+        margin-left: 10px;
+    }
+    
+    /* search plugin related */
+    
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sidebar > h1 {
+        order: 1;
+        margin-top: 1.5rem;
+    }
+    
+    .sidebar .search {
+        order: 2;
+        margin: 1.5rem 0 0 0;
+        border: none;
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 6px;
+    }
+    
+    .sidebar .sidebar-nav {
+        order: 3;
+    }
+    
+    .sidebar .search .input-wrap {
+        border: none;
+        position: relative;
+    }
+    
+    
+    .sidebar .search .input-wrap input {
+        background: var(--background-color-light);
+        color: var(--text-color-base);
+    }
+    
+    .sidebar .search .clear-button.show {
+        display: block;
+        position: absolute;
+        right: 4px;
+        top: 8px;
+    }
+    
+    body .sidebar-toggle {
+        background: none;
+        bottom: 1rem;
+        left: 1rem;
+        cursor: pointer;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0;
+    }
+    
+    body .sidebar-toggle span {
+        transition: all 0.3s linear;
+        background-color: var(--text-color-active);
+        height: 0.25rem;
+        width: 1.5rem;
+        position: absolute;
+        left: 0;
+        margin: 0;
+        transform-origin: 0;
+    }
+    
+    body.close .sidebar-toggle {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    body.close .sidebar-toggle span {
+        transform-origin: center;
+        background-color: var(--theme-color-secondary);
+    }
+    
+    body .sidebar-toggle span:nth-child(1) { top:0; }
+    body .sidebar-toggle span:nth-child(2) { top:0.65rem; }
+    body .sidebar-toggle span:nth-child(3) { top:1.25rem; }
+    
+    .sidebar-toggle .sidebar-toggle-button:hover { opacity: 1; }
+    
+    .sidebar-toggle:hover span:nth-child(1) { transform: rotate(45deg); width: 1.75rem; }
+    .sidebar-toggle:hover span:nth-child(2) { opacity: 0; }
+    .sidebar-toggle:hover span:nth-child(3) { transform: rotate(-45deg); width: 1.75rem; }
+    
+    .close .sidebar-toggle:hover span:nth-child(1) { transform:rotate(0); width:1.5rem; top:0.65rem; }
+    .close .sidebar-toggle:hover span:nth-child(2) { opacity: 1; transform:rotate(90deg); }
+    .close .sidebar-toggle:hover span:nth-child(3) { transform:rotate(0); width:1.5rem; top:0.65rem; }
 
 }
