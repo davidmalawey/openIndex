@@ -1,5 +1,5 @@
 * **Overview**
-  * [Getting Started](/resources.md)
+  * [Getting Started](/gettingstarted.md)
   * [Release Notes](/release_notes.md)
 * **Open Project**
   * [OpenAir](/openAir.md)
