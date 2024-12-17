@@ -31,6 +31,7 @@ Put your custom CSS in this file.
     --base-background-color: var(--neutral-light); /* Blackish primary background */
 
     /* Secondary Backgrounds */
+    --background-primary: var(--neutral-medium);
     --background-secondary: var(--primary-dark);
 
     --sidebar-toggle-background: transparent;
