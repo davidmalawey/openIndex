@@ -5,5 +5,5 @@
   * [OpenAir](/openAir.md)
 * **[Authored Posts](/posts/)**
 * **Knowledge Base**
-  * [Resource Highlights](/references.md)
+  * [Resource Highlights](/resources.md)
   * [Glossary](/glossary.md)
