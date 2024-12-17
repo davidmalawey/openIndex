@@ -60,5 +60,31 @@ Put your custom CSS in this file.
     /* Accessibility Adjustments */
     --focus-outline-color: var(--accent-yellow);
 
+    .sidebar > h1 img {
+        max-width: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 15px;
+        justify-content: center
+      }
+
+      body .sidebar-toggle span {
+        transition: all 0.3s linear;
+        background-color: var(--primary-color);
+        height: 0.25rem;
+        width: 1.5rem;
+        position: absolute;
+        left: 0;
+        margin: 0;
+        transform-origin: 0;
+      }
+      
+      body.close .sidebar-toggle {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      
+      
 
 }
