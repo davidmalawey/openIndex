@@ -69,15 +69,11 @@ Put your custom CSS in this file.
         justify-content: center
       }
 
+      body .sidebar-toggle { background: transparent; }
+      
       body .sidebar-toggle span {
         transition: all 0.3s linear;
         background-color: var(--primary-color);
-        height: 0.25rem;
-        width: 1.5rem;
-        position: absolute;
-        left: 0;
-        margin: 0;
-        transform-origin: 0;
       }
       
       body.close .sidebar-toggle {
