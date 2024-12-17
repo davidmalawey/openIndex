@@ -397,3 +397,4 @@ For internal changes see the corresponding change logs:
 - [AnyCable Rack Server](https://github.com/anycable/anycable-rack-server/blob/v0.2.0/CHANGELOG.md)
 
 [stimulus_reflex]: https://github.com/hopsoft/stimulus_reflex
+3
