@@ -22,6 +22,13 @@ Your CAD needs are already met. You just need to discover what you need.
 | **Generates STEP?**           | YES    | YES   | NO   | 9    |
 | **Generates STL?**            | YES    | YES   | YES  | 10   |
 
+## What's in a Native CAD model?
+
+* geometries
+* unique bodies
+* axes, planes, & coordinate systems
+* material specifications
+
 ---
 
 ## Notes:
