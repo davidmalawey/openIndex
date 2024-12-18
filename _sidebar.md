@@ -3,7 +3,7 @@
   * [Glossary](/glossary.md)
   * [Release Notes](/release_notes.md)
 * **Open Projects**
-  * [OpenBox](/open/openAir.md)
+  * [OpenBox](/open/openBox.md)
   * ...
   * ...
 * **Knowledge Base**
