@@ -1,11 +1,11 @@
 * **Overview**
   * [Getting Started](/gettingstarted.md)
   * [Release Notes](/release_notes.md)
-* Open Projects
+* **Open Projects**
   * [OpenAir](/open/openAir.md)
   * ...
   * ...
 * **Knowledge Base**
-  * [Authored Posts](/posts/)
+  * [Posts](/posts/index.md)
   * [Resource Highlights](/resources.md)
   * [Glossary](/glossary.md)
