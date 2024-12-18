@@ -63,6 +63,16 @@ Put your custom CSS in this file.
     /* Accessibility Adjustments */
     --focus-outline-color: var(--accent-yellow);
 
+
+
+    .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
+      color: var(--neutral-dark);
+      margin-bottom: 2em;
+    }
+
+
+
+
     .sidebar > h1 img {
         max-width: 100px;
         display: flex;
