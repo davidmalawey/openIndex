@@ -9,5 +9,4 @@
 * **Knowledge Base**
   * [CAD Softwares By Purpose](/resources/CADSofwareByPurposes.md)
   * [Recommanded YouTubers](/resources/RecommendedYouTubers.md)
-  * [Curated Links](/resources/links.md)
-  * [Resource Highlights](/resources.md)
+  * [Links Highlights](/resources/links.md)
