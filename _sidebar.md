@@ -1,10 +1,11 @@
 * **Overview**
   * [Getting Started](/gettingstarted.md)
   * [Release Notes](/release_notes.md)
-* **[OpenProject](/openProjects.md)**
-  * [View all projects](/openProjects.md)
-* **[Authored Posts](/posts/)**
-  * [CAD Softwares By Purpose](/posts/CADSofwareByPurposes.md)
+* Open Projects
+  * [OpenAir](/open/openAir.md)
+  * ...
+  * ...
 * **Knowledge Base**
+  * [Authored Posts](/posts/)
   * [Resource Highlights](/resources.md)
   * [Glossary](/glossary.md)

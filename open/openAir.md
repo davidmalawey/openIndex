@@ -1,4 +1,4 @@
-## OpenAir
+# OpenAir
 
 ![OpenAir Project](/images/openBox.png ':class=image-border-rounded')
 
@@ -6,24 +6,4 @@ OpenAir is a collection of solutions for pneumatics design projects, with free d
 
 [View project](https://bit.ly/openairproject ':class=button')
 [:fa-brands fa-github: GitHub](https://github.com/davidmalawey/openAirs ':class=button-secondary')
-
-## OpenArm
-
-...
-
-## OpenBox
-
-...
-
-## OpenJar
-
-...
-
-## OpenLab
-
-...
-
-## OpenSpin
-
-...
 
