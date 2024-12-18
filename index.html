@@ -297,17 +297,23 @@
 
           });
 
-          hook.beforeEach(function (html) {
-            if (/githubusercontent\.com/.test(vm.route.file)) {
-              url = vm.route.file
-                .replace('raw.githubusercontent.com', 'github.com')
-                .replace(/\/master/, '/blob/master')
-            } else {
-              url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
-            }
-        
+          // hook.beforeEach(function (html) {
+          //  if (/githubusercontent\.com/.test(vm.route.file)) {
+          //    url = vm.route.file
+          //      .replace('raw.githubusercontent.com', 'github.com')
+          //      .replace(/\/master/, '/blob/master')
+          //  } else {
+          //    url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
+          //  }
+          //  var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=align-items-vertically")\n'
 
-          });
+          //  if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
+          //    return html + '<br />' + '\n\n' + editHtml
+          //  } else {
+          //    return html
+          //  }
+
+          // });
 
           // Invoked on each page load after new HTML has been appended to the DOM
           hook.doneEach(function () {
